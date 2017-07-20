@@ -20,7 +20,7 @@ lambdaファンクションでは、コードをアップロードするだけ�
 その際、イベントの発生量に応じてそれらを適切に処理すべく必要に応じてコンピュートリソース（Amazon EC2インスタンス）を起動し管理します。  
 しかし、このことをユーザが気にする必要はありません。lambdaはユーザに代わってこのあたりのリソース管理を適切かつ自動的に行い、必要なくなればそれらのシャットダウンも行います。  
   
-i[lamdaの説明](https://raw.githubusercontent.com/tamken999/worksample/develop/lamdaの説明.jpg)  
+![lamdaの説明](https://raw.githubusercontent.com/tamken999/worksample/develop/lamdaの説明.jpg)  
 イベント（ここではS3バケットへのファイルのアップロード）をうけて、事前に用意したlambdaファンクションのコードが実行されます。  
   
 ### 実際に使ってみましょう  
