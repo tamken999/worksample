@@ -2,9 +2,12 @@
 lambdaは、クラウド上でアプリケーションを実行する  
 Amazon Web Service（AWS）による基盤です。  
 lambdaを使えば何らかのイベントを起点に処理を実行することが可能です。  
--Amazon S3のバケットへのファイルのアップロード、  
--Amazon Kinesisのストリームに届いたメッセージ、  
--Amazon DynamoDBにおけるテーブルの更新といったイベントを受けて、  
+
+- Amazon S3のバケットへのファイルのアップロード、  
+- Amazon Kinesisのストリームに届いたメッセージ、  
+- Amazon DynamoDBにおけるテーブルの更新  
+
+といったイベントをうけて、
 事前に用意したコードを自動的に実行することができます。  
   
 ![lamdaの説明](https://raw.githubusercontent.com/tamken999/worksample/develop/lamdaの説明.jpg)  
